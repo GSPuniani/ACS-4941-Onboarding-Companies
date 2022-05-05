@@ -9,12 +9,15 @@ Strategy: Save each digit as a key and a list of corresponding letters as a valu
 then recursively iterate through all possible combos"""
 
 KEYPAD_DICT = {
-  2: ["a", "b", "c"],
-  3: ["d", "e", "f"],
-  4: ["g", "h", "i"],
-  5: ["j", "k", "l"],
-  6: ["m", "n", "o"],
-  7: ["p", "q", "r", "s"],
-  8: ["t", "u", "v"],
-  9: ["w", "x", "y", "z"]
+  "2": ["a", "b", "c"],
+  "3": ["d", "e", "f"],
+  "4": ["g", "h", "i"],
+  "5": ["j", "k", "l"],
+  "6": ["m", "n", "o"],
+  "7": ["p", "q", "r", "s"],
+  "8": ["t", "u", "v"],
+  "9": ["w", "x", "y", "z"]
 }
+
+def t9_letters(digits_str):
+  return 
