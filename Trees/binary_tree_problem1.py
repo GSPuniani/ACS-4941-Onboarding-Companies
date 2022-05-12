@@ -9,14 +9,14 @@ class TreeNode:
         self.left = left
         self.right = right
 
-        
+
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         # Return root if tree is empty
         if not root:
             return root
         
-        # Use queue to track BFS traveral
+        # Use queue to track BFS traversal
         bfs_queue = [root]
         while bfs_queue:
             node = bfs_queue[-1]
